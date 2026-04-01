@@ -13,7 +13,7 @@ import SimplePricingSection from './components/SimplePricingSection';
 import Workflow from './components/Workflow';
 import Footer from './components/Footer';
 
-const fetchCards = fetch(`./products.json`).then((res) => res.json());
+const fetchCards = fetch(`/data.json`).then((res) => res.json());
 
 function App() {
 
