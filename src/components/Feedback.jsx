@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Feedbac = () => {
+const Feedback = () => {
     return (
         <section className=" my-12">
   <div className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7]  py-12 px-8 flex flex-col md:flex-row items-center justify-around text-white shadow-xl">
@@ -31,4 +31,4 @@ const Feedbac = () => {
     );
 };
 
-export default Feedbac;
+export default Feedback;
