@@ -30,15 +30,7 @@ function App() {
 
   };
 
-  // const [visitCard, setVisitCard] = useState(false);
   const [activeTab, setActiveTab] = useState('products');
-
-  // const toggleVisitCard = () => {
-  //   setVisitCard(!visitCard);
-  //   activeTab === "products" ? setActiveTab("cart") : setActiveTab("products");
-  // };
-
-
   const handleRemoveCart = (id) => {
     const clickedCartRemove = visitCount.filter(item => item.id !== id);
     setVisitCount(clickedCartRemove);
@@ -53,7 +45,7 @@ function App() {
   const handleRemoveAllCart = () => {
     setVisitCount([]);
 
-      toast.error(" All Item removed from cart", {
+      toast.success(" Successfully proceed products!!", {
     position: "top-right",
     autoClose: 2000,
   });
@@ -123,9 +115,7 @@ function App() {
         pauseOnHover
         theme="light"
       />
-
     </>
-
   )
 }
 

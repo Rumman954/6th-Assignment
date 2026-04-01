@@ -1,13 +1,9 @@
-
 import Card from './card';
 import React, { use } from 'react';
 
-
 const Cards = ({ fetchCards, addVisit, visitCount }) => {
 
-
     const cardsData = use(fetchCards);
-
 
     return (
         <div className='max-w-11/12 lg:max-w-9/12 mx-auto '>

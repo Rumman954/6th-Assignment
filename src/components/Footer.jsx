@@ -2,10 +2,9 @@ import React from 'react';
 
 const Footer  = () => {
     return (
-       <footer className="bg-[#0b1120] text-[#94a3b8] py-16 px-10 border-t border-gray-800">
+      <footer className="bg-[#0b1120] text-[#94a3b8] py-16 px-10 border-t border-gray-800">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
     
-   
     <div className="text-center sm:text-start md:w-1/3">
       <h2 className="text-white text-3xl font-bold mb-4">DigiTools</h2>
       <p className="text-sm leading-relaxed">
@@ -13,7 +12,6 @@ const Footer  = () => {
         Work smarter with our suite of powerful tools.
       </p>
     </div>
-
   
     <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-8">
       {/* Column 1 */}
@@ -26,7 +24,6 @@ const Footer  = () => {
           <li>Integrations</li>
         </ul>
       </div>
-
     
       <div>
         <h3 className="text-white font-semibold mb-4 text-sm">Company</h3>
@@ -37,7 +34,6 @@ const Footer  = () => {
           <li>Press</li>
         </ul>
       </div>
-
     
       <div>
         <h3 className="text-white font-semibold mb-4 text-sm">Resources</h3>
@@ -49,7 +45,6 @@ const Footer  = () => {
         </ul>
       </div>
 
-   
       <div>
         <h3 className="text-white font-semibold mb-4 text-sm">Social Links</h3>
         <div className="flex gap-3">
@@ -67,7 +62,6 @@ const Footer  = () => {
     </div>
   </div>
 
- 
   <div className="max-w-7xl mx-auto pt-8 mt-12 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
     <p>© 2026 Digitools. All rights reserved.</p>
     <div className="flex gap-6">

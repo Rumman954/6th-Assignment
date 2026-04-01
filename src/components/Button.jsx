@@ -20,7 +20,6 @@ const Button = ({ visitCount, activeTab, setActiveTab }) => {
           Products
         </button>
 
-       
         <button
           onClick={() => setActiveTab('cart')}
           className={`px-8 py-2.5 text-sm font-semibold rounded-full transition-all duration-300 ${

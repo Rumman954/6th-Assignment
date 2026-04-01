@@ -4,7 +4,7 @@ import React from 'react';
 const GetStarted = () => {
     return (
 <div class="max-w-11/12 lg:max-w-9/12 mx-auto py-16 px-4 ">
-   <div class="text-center mb-12">
+  <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
         Get Started In 3 Steps
       </h2>
@@ -63,12 +63,6 @@ const GetStarted = () => {
 </div>
 
 </div>
-
-
-
-
-
-
     );
 };
 
